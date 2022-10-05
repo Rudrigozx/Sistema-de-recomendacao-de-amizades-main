@@ -1,7 +1,14 @@
 package model;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import javax.swing.*;
 import java.sql.*;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 
 public class Conexão {
     PreparedStatement pstn;
@@ -42,5 +49,30 @@ public class Conexão {
         }
         return banco;
     }
+    
+    public ArrayList<Pessoa> listarPessoaTXT(){
+        ArrayList<Pessoa> lista = new ArrayList<>();    
+        try {
 
+            FileReader fr = new FileReader("ferramentas.txt");
+            BufferedReader br = new BufferedReader(fr);
+
+            String str;
+            while((str = br.readLine()) != null){
+                Pessoa pessoa = new Pessoa();
+                pessoa.setNome(str);
+                lista.add(str.split(","));
+                pessoa.setIdade(Integer.parseInt(str));
+                
+            } 
+
+     } catch(IOException e) {
+           System.out.println("Arquivo não encontrado!");
+     } finally {
+         br.close(); 
+     }
+
+     return lista;
+    }
+   
 }

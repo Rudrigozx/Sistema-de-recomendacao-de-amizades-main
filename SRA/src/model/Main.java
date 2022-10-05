@@ -11,16 +11,16 @@ import java.util.ArrayList;
 public class Main {
 
     public static void main(String[] args) {
-        Conexão conexão = new Conexão();
-        conexão.conectBD();
-        ArrayList<Pessoa> list = conexão.listaPessoa();
+        //Conexão conexão = new Conexão();
+        //conexão.conectBD();
+        //ArrayList<Pessoa> list = conexão.listaPessoa();
 
-       Rede rede = new Rede(list.size());
+       //Rede rede = new Rede(list.size());
 
-      // Pessoa p1 = new Pessoa("rodrigo",17, "santos", "M", "musculação","romance","medio");
-     //  Pessoa p2 = new Pessoa("lucas",34, "palmeiras", "F","pintura","romance","superior");
+      Pessoa p1 = new Pessoa("rodrigo",17, "santos", "M", "musculação","romance","medio");
+      Pessoa p2 = new Pessoa("lucas",34, "palmeiras", "F","pintura","romance","superior");
 
-        for (int i=0;i< list.size();i++){
+       /** for (int i=0;i< list.size();i++){
             rede.adicionarVertice(list.get(i));
 
         }
@@ -53,7 +53,7 @@ public class Main {
             System.out.println("\n");
         }
 
-
+     */
     }
     
 }

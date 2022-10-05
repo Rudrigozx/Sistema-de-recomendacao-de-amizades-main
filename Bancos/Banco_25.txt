@@ -1,0 +1,26 @@
+name,idade,Sexo,Time,Hobby,generoFilmes,interessesEstudo
+Brenda Candido,54,Masculino,Santos,Assistir Filmes/series,Terror,Humanas
+Carly Maia,23,Masculino,Sao Paulo,Ler livros,Cómedia,Exatas
+Xena Barbosa,45,Feminino,Corinthians,Academia,Ação,Biologicas
+Meredith Soares,23,Feminino,Palmeiras,Praticar esportes,Romance,Outras
+Emi Silveira,32,Masculino,Flamengo,Jogar Games,Aventura,Humanas
+Daniel de Abreu,54,Masculino,Fluminense,Outras,Terror,Exatas
+Brennan de Brito,48,Feminino,Botafogo,Assistir Filmes/series,Cómedia,Biologicas
+Giacomo Candido,18,Feminino,Vasco,Ler livros,Ação,Outras
+Iona de Santana,54,Masculino,Gremio,Academia,Romance,Humanas
+Wallace Aguiar,53,Masculino,Internacional,Praticar esportes,Aventura,Exatas
+Ocean de Moura,52,Feminino,Cruzeiro,Jogar Games,Terror,Biologicas
+Gemma Farias,53,Feminino,Atletico Mineiro,Outras,Cómedia,Outras
+Mara Duarte,27,Masculino,Santos,Assistir Filmes/series,Ação,Humanas
+Olympia Maia,34,Masculino,Sao Paulo,Ler livros,Romance,Exatas
+Ila Marinho,40,Feminino,Corinthians,Academia,Aventura,Biologicas
+Orlando Gonçalves,56,Feminino,Palmeiras,Praticar esportes,Terror,Outras
+Amena Tavares,49,Masculino,Flamengo,Jogar Games,Cómedia,Humanas
+Craig da Cruz,20,Masculino,Fluminense,Outras,Ação,Exatas
+Aurora Diniz,37,Feminino,Botafogo,Assistir Filmes/series,Romance,Biologicas
+Jordan Vieira,24,Feminino,Vasco,Ler livros,Aventura,Outras
+Jermaine Lima,47,Masculino,Gremio,Academia,Terror,Humanas
+Brent Nogueira,43,Masculino,Internacional,Praticar esportes,Cómedia,Exatas
+Prescott Guimaraes,47,Feminino,Cruzeiro,Jogar Games,Ação,Biologicas
+Carter Bispo,52,Feminino,Atletico Mineiro,Outras,Romance,Outras
+Upton Correia,39,Masculino,Santos,Assistir Filmes/series,Aventura,Humanas
